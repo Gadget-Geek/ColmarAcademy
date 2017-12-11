@@ -167,11 +167,12 @@ img {
 
 .button:hover, .link:hover {
   color: goldenrod;
+  font-weight: bold;
 }
 
 .link {
   color: magenta;
-  transition: background-color 0.5s linear, color 0.5s linear;
+  transition: background-color 0.5s linear, color 0.5s linear, font-weight 0.5s linear;
 }
 
 /* 2. Header */
@@ -209,6 +210,7 @@ header {
 }
 
 .academy {
+  font-size: .5rem;
   font-style: italic;
   color: tomato;
   text-transform: lowercase;
@@ -224,11 +226,16 @@ nav {
 
 .desktop ul li {
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-left: 1rem;
   padding: .5rem;
   text-align: center;
-  text-transform: capitalize;
+  transition: color 0.5s linear, font-weight 0.5s linear;
+}
+
+.desktop ul li:hover {
+  color: midnightblue;
+  font-weight: bold;
 }
 
 .mobile ul li {
@@ -347,6 +354,12 @@ footer .legal {
 
 .legal span {
   padding: 2rem 0.5rem;
+  transition: color 0.5s linear, font-weight 0.5s linear;
+}
+
+.legal span:hover {
+  font-weight: bold;
+  color: orange;
 }
 
 /* 8. Media Queries */
@@ -355,16 +368,13 @@ footer .legal {
 
 html,
 body {
-  background: #FAFAFA;
-	color: #0E2424;
-	margin: 0;
+  margin: 0;
   width: auto;
 	}
 
 /* Header */
 
 header {
-  color: #000000;
   display: flex;
   justify-content: space-around;
   position: static;
@@ -487,7 +497,7 @@ header {
 }
 
 .column-central .item .editorial-content {
-  background-color: #D3D3D3;
+  background-color: lightskyblue;
   display: flex;
 }
 
@@ -497,8 +507,13 @@ header {
   display: none;
 }
 
+#courses h3 {
+  transition: color 0.5s linear, font-weight 0.5s linear;
+}
+
 #courses h3:hover {
-  color: #2E53E0;
+  color: goldenrod;
+  font-weight: bold;
 }
 
 /* Thesis */
