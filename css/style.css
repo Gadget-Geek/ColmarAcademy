@@ -108,7 +108,7 @@ img {
 }
 
 .column-right .item:hover {
-  background-color: indigo;
+  background-color: mediumblue;
   color: linen;
 }
 
@@ -154,7 +154,7 @@ img {
 }
 
 .column-central .item .editorial-content:hover {
-  background-color: mediumblue;
+  background-color: indigo;
   color: linen;
 }
 
@@ -166,11 +166,12 @@ img {
 }
 
 .button:hover, .link:hover {
-  color: #a9a9a9;
+  color: goldenrod;
 }
 
 .link {
-    color: #2E53E0;
+  color: magenta;
+  transition: background-color 0.5s linear, color 0.5s linear;
 }
 
 /* 2. Header */
@@ -223,11 +224,11 @@ nav {
 
 .desktop ul li {
   display: inline-block;
-	font-size: 1.1rem;
-	margin-left: 1rem;
+  font-size: 1.1rem;
+  margin-left: 1rem;
   padding: .5rem;
   text-align: center;
-	text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .mobile ul li {
@@ -250,13 +251,19 @@ nav {
 }
 
 .button {
-  background-color: #4E6778;
+  background-color: navy;
   border-radius: 0.25rem;
-  color: #FFF;
+  color: tomato;
   margin-top: 1.5rem;
   padding: .8rem 0 ;
   text-align: center;
   width: 80%;
+  transition: background-color 0.5s linear, color 0.5s linear, font-weight 0.5s linear;
+}
+
+.button:hover {
+  background-color: purple;
+  font-weight: bold;
 }
 
 /* 4. Information */
