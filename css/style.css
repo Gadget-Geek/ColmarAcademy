@@ -11,7 +11,7 @@ Table of Contents:
 
 html {
   display: block;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quattrocento', serif;
   font-size: 16px;
 }
 
@@ -27,18 +27,21 @@ div {
 /* Fonts */
 
 h1 {
+  font-family: 'Oswald', sans-serif;
   font-size: 2.9rem;
   font-weight: 600;
   line-height: 3rem;
 }
 
 h2 {
+  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.5rem;
 }
 
 h3 {
+  font-family: 'Oswald', sans-serif;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2rem;
@@ -164,8 +167,9 @@ img {
 /* 2. Header */
 
 header {
+  font-family: 'Oswald', sans-serif;
   align-items: center;
-  background-color: #FBFBFF;
+  background-color: PaleTurquoise;
   display: flex;
   height: 4rem;
   justify-content: flex-start;
@@ -180,21 +184,24 @@ header {
 }
 
 .logo img {
-  height: 2rem;
+  height: 3rem;
   width: auto;
 }
 
 .logo span {
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  font-size: 2rem;
 }
 
 .colmar {
-  color: #0E2424;
+  font-weight: bold;
+  color: navy;
+  text-transform: uppercase;
 }
 
 .academy {
-  color: #4E6778;
+  font-style: italic;
+  color: tomato;
+  text-transform: lowercase;
 }
 
 header nav {
@@ -299,8 +306,9 @@ video {
 /* 7. Footer */
 
 footer {
+  font-family: 'Oswald', sans-serif;
   align-items: center;
-  background-color: #FBFBFF;
+  background-color: darkslategrey;
   border-top: 1px solid lightgrey;
   display: flex;
   position: relative;
@@ -309,12 +317,14 @@ footer {
 }
 
 footer .copyright {
+  color: floralwhite;
   display: flex;
   flex-grow: 1;
   padding: 2rem 1.5rem;
 }
 
 footer .legal {
+  color: lemonchiffon;
   display: inline-block;
   padding-right: 1rem;
 }
