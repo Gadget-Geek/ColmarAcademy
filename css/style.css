@@ -62,7 +62,7 @@ p {
 /* Containers, columns, and items */
 
 .main-content {
-  background-color: #EFECF0;
+  background-color: lightskyblue;
 }
 
 .container {
@@ -103,10 +103,13 @@ img {
   display: flex;
   height: auto;
   padding: 1rem 0 1rem 1rem;
-  width: auto; }
+  width: auto;
+  transition: background-color 0.5s linear, color 0.5s linear;
+}
 
 .column-right .item:hover {
-  background-color: #D3D3D3;
+  background-color: indigo;
+  color: linen;
 }
 
 .column-right .image-content {
@@ -142,18 +145,24 @@ img {
 }
 
 .column-central .item .editorial-content {
-  background-color: #ffffff;
+  background-color: lightseagreen;
   display: flex;
   flex-direction: column;
   line-height: 2rem;
   padding: 1rem 1rem 1.5rem 1rem;
+  transition: background-color 0.5s linear, color 0.5s linear;
+}
+
+.column-central .item .editorial-content:hover {
+  background-color: mediumblue;
+  color: linen;
 }
 
 /* Transitions and Colors */
 
 #introduction,
 #courses {
-  background-color: #FFF8F6;
+  background-color: lightcyan;
 }
 
 .button:hover, .link:hover {
